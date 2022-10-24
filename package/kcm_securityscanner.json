@@ -1,0 +1,22 @@
+{
+    "Categories": "Qt;KDE;X-KDE-settings-system;",
+    "KPlugin": {
+        "Description": "Do security scan",
+        "Description[es]": "Hacer escaneo de seguridad",
+        "FormFactors": [
+            "desktop",
+            "handset",
+            "tablet",
+            "mediacenter"
+        ],
+        "Icon": "preferences-system-securityscanner",
+        "Name": "Security Scanner",
+        "Name[es]": "Escáner de seguridad",
+        "ServiceTypes": [
+            "KCModule"
+        ]    
+    },
+    "X-KDE-Keywords": "Security",
+    "X-KDE-Keywords[es]": "Seguridad",
+    "X-KDE-System-Settings-Parent-Category": "systemsettings"
+}
