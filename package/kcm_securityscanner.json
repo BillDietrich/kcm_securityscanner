@@ -18,5 +18,8 @@
     },
     "X-KDE-Keywords": "Security",
     "X-KDE-Keywords[es]": "Seguridad",
-    "X-KDE-System-Settings-Parent-Category": "systemsettings"
+    "X-KDE-System-Settings-Parent-Category": "systemsettings",
+
+    "X-KDE-ParentApp": "kcontrol"
+
 }

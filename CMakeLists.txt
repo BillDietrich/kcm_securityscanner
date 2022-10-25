@@ -45,8 +45,11 @@ kpackage_install_package(package kcm_securityscanner kcms)
 # https://github.com/KDE/kcmutils/blob/master/KF5KCMUtilsMacros.cmake
 # kcmutils_generate_desktop_file(kcm_securityscanner)
 
+feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
 # Note: output is
 # /projects/build-kcm_securityscanner-Desktop-Debug/bin/plasma/kcms/personalization/kcm_securityscanner.so
+# /projects/build-kcm_securityscanner-Desktop-Release/bin/plasma/kcms/personalization/kcm_securityscanner.so
 
 # Do "chmod 644 kcm_securityscanner.so"
 # Copy it to: /usr/lib/x86_64-linux-gnu/qt5/plugins/plasma/kcms/systemsettings/
