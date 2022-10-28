@@ -1,6 +1,7 @@
 {
     "Categories": "Qt;KDE;X-KDE-settings-system;",
     "KPlugin": {
+        "BugReportUrl": "https://github.com/BillDietrich/kcm_securityscanner/issues",
         "Description": "Do security scan",
         "Description[es]": "Hacer escaneo de seguridad",
         "FormFactors": [
