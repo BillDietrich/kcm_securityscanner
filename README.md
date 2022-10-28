@@ -14,7 +14,7 @@ Presents the results to the user, with commentary and suggestions.
 
 ## Install
 
-* Requires a desktop Linux system that is running the KDE desktop environment or similar (Deepin, Trinity ?).
+* Requires a desktop Linux system that is running the KDE Plasma desktop environment or compatible (Deepin, Trinity, NX Desktop ?).
 * Run `./install.sh` (will ask for sudo password).
 
 ## Use
@@ -38,6 +38,10 @@ Presents the results to the user, with commentary and suggestions.
 * Various tweaks.
 * Still gives "can't find QML file" error.
 
+### 0.0.3
+
+* Created a .desktop file, but installing it breaks some things.
+
 ---
 
 ## Development
@@ -55,6 +59,8 @@ Now using:
 * Qt Creator 8
 * Qt 6.4.0
 * UbuntuDDE Remix 22.04
+* On UbuntuDDE, had to do "sudo apt install extra-cmake-modules plasma-sdk qml-module-org-kde-kcm qtdeclarative5-dev libkf5plasma-dev libkf5declarative-dev libkf5xmlgui-dev libkf5activities-dev build-essential libkf5newstuff-dev kirigami2-dev qml-module-org-kde-i18n-localedata libkf5kcmutils-dev"
+* In CMakeLists.txt, had to change KF5_MIN_VERSION from "5.97.0" to "5.92.0" because my system didn't have 5.97
 
 Building:
 
@@ -70,8 +76,6 @@ Click on it and you should see "Kit" set to "Desktop Qt 6.4.0 GCC 64bit" and "Re
 5- Check both "Compiler Output" and "General Messages" (at bottom).
 
 [GitHub repo for this module](https://github.com/BillDietrich/kcm_securityscanner)
-
-[KDE Store page for this module](https://github.com/BillDietrich/kcm_securityscanner)
 
 [My web site](https://www.billdietrich.me/)
 

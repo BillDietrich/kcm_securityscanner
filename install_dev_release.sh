@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #---------------------------------------------------------------------------------
 # install_dev_release.sh - during development, install release version of kcm_securityscanner
@@ -9,6 +9,7 @@ export BINDIR=../build-kcm_securityscanner-Desktop-Release/bin/plasma/kcms/syste
 export KCMDIR=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasma/kcms/systemsettings/
 
 #sudo cp main.qml "$KCMDIR"
+#cp SecurityScanner.desktop $HOME/.local/share/applications/
 
 cd "$BINDIR"
 

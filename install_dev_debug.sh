@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #---------------------------------------------------------------------------------
 # install_dev_debug.sh - during development, install debug version of kcm_securityscanner
@@ -7,6 +7,8 @@ set -o verbose
 
 export BINDIR=../build-kcm_securityscanner-Desktop-Debug/bin/plasma/kcms/systemsettings
 export KCMDIR=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasma/kcms/systemsettings/
+
+#cp SecurityScanner.desktop $HOME/.local/share/applications/
 
 cd "$BINDIR"
 

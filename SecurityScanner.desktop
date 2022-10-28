@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec="kcmshell5 /usr/lib/x86_64-linux-gnu/qt5/plugins/plasma/kcms/systemsettings/kcm_securityscanner"
+Name="Security Scanner"
+Description="Security Scanner"
+Categories="Qt;KDE;X-KDE-settings-system;"
+Type=Service
+Version=1.0
+X-Deepin-Vendor=user-custom
+X-KDE-ServiceTypes=KCModule
+X-KDE-ParentApp=kcontrol
+X-KDE-System-Settings-Parent-Category="systemsettings"
+X-KDE-Library="securityscanner"
